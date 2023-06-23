@@ -1,0 +1,42 @@
+table.sd-webui-model-scanner-results,
+.sd-webui-model-scanner-results table {
+    width: 100%;
+}
+
+.sd-webui-model-scanner-results-note,
+.sd-webui-model-scanner-results-note > td,
+.sd-webui-model-scanner-results-note > td > details > summary,
+.sd-webui-model-scanner-results-sdscanner-nonstd,
+.sd-webui-model-scanner-results-sdscanner-nonstd *
+{ color: #ffff33 !important; }
+
+.sd-webui-model-scanner-results-warning,
+.sd-webui-model-scanner-results-warning > td,
+.sd-webui-model-scanner-results-warning > td > details > summary,
+.sd-webui-model-scanner-results-picklescan-suspicious,
+.sd-webui-model-scanner-results-picklescan-suspicious *
+{ color: #ff9933 !important; }
+
+.sd-webui-model-scanner-results-alert,
+.sd-webui-model-scanner-results-alert > td,
+.sd-webui-model-scanner-results-alert > td > details > summary,
+.sd-webui-model-scanner-results-picklescan-dangerous,
+.sd-webui-model-scanner-results-picklescan-dangerous *,
+.sd-webui-model-scanner-results-sdscanner-badcall,
+.sd-webui-model-scanner-results-sdscanner-badcall *,
+.sd-webui-model-scanner-results-sdscanner-badsignal,
+.sd-webui-model-scanner-results-sdscanner-badsignal *
+{ color: #ff3333 !important; }
+
+.sd-webui-model-scanner-results-error,
+.sd-webui-model-scanner-results-error > td,
+.sd-webui-model-scanner-results-error > td > details > summary
+{ color: #9933ff !important; }
+
+.sd-webui-model-scanner-results-r1 > td
+{ border-bottom: 0px !important; }
+
+.sd-webui-model-scanner-results-r2 > td > details > summary,
+.sd-webui-model-scanner-results-r2 > td > details h3
+{ text-align: center; }
+
