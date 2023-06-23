@@ -87,7 +87,7 @@ def show_results(results):
         row = f'<tr class="{str.join(" ", style_cls)}">{row}</tr>'
 
         style_cls[0] = 'sd-webui-model-scanner-results-r2'
-        row += f'<tr class="{str.join(" ", style_cls)}"><td colspan="4"><details><summary>Scanner Details</summary>{details}</details></td></tr>'
+        row += f'<tr class="{str.join(" ", style_cls)}"><td colspan="5"><details><summary>Scanner Details</summary>{details}</details></td></tr>'
         rows.append(row)
     return TEMPLATE.format(rows=str.join('', rows))
 
